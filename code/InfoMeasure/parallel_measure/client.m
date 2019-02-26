@@ -1,11 +1,11 @@
 % data = sin(1:64);
 % plot(data);
-clear;
+%clear;
 %parallel_handler;
 
-addpath('../ToolBox/GetMD5');
-addpath('../ToolBox/');
-addpath('../ToolBox/util/');
+%addpath('../ToolBox/GetMD5');
+%addpath('../ToolBox/');
+%addpath('../ToolBox/util/');
 
 
 

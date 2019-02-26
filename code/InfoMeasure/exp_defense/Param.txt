@@ -4,8 +4,8 @@ home_directory ****************
 
 
 %%%%%%%% socket setup %%%%%%%%%%%%%%%%%%%%%5
-server_address ******************
-%server_address localhost
+%server_address ******************
+server_address localhost
 port_number 9900
 port_random 1 
 partition 1000000
@@ -22,7 +22,7 @@ info_filename info.mat
 job_filename JobRecord
 job_size 1100 
 job_refresh_threshold 5 
-debug_data debug_data
+debug_data /home/nate/PycharmProjects/InfoLeakWebsiteFingerprint/code/debug-data
 
 % server listening timeout 
 server_timeout 240000
@@ -31,8 +31,8 @@ read_timeout 60000
 %%%%%%%% openworld_parameter %%%%%%%%%%%%%%%%%
 mcarlo_num 5000 
 prior_type Closed_World_Equal 
-monitor_dataset *******************
-non_monitor_dataset ../dataset_open_world/non_monitored/0-500/
+monitor_dataset /media/nate/wf-research/infoleak-features/
+non_monitor_dataset *******************
 # selector=1: bootstrap; selector=2: subsampling (with reModel_krate)
 reModel_krate 0.5
 selector 1 

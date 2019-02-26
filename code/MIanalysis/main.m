@@ -1,5 +1,5 @@
 
-addpath('../InfoMeasure/parallel_measure/');
+%addpath('../InfoMeasure/parallel_measure/');
 
 % handle cuncurrent processing in networked machines
 parallel_handler(32); 
@@ -12,7 +12,7 @@ parallel_handler(32);
 %exp_mianalysis('buflo_10');
 %exp_mianalysis('buflo_20');
 %exp_mianalysis('buflo_30');
-%exp_mianalysis('buflo_40');
+exp_mianalysis('buflo_40');
 %exp_mianalysis('buflo_50');
 %exp_mianalysis('buflo_60');
 %exp_mianalysis('buflo_80');
@@ -45,4 +45,4 @@ parallel_handler(32);
 
 
 %% cs_buflo
-exp_mianalysis('cs_buflo');
+%exp_mianalysis('cs_buflo');

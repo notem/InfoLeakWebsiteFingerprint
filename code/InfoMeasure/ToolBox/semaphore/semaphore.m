@@ -1,7 +1,8 @@
 % SEMAPHORE  Interfaces with POSIX semaphore.
 %
 %   This mex file provides an interface with the POSIX semaphore
-%   functionality. For more information, see [1].
+%   functionality. For more information, see [1]. KEY must be a signed integer.
+%   VAL must be a positive integer.
 %
 %   SEMAPHORE('create',KEY,VAL)
 %      Initializes a semaphore which can later by accessed by KEY. The
@@ -30,9 +31,16 @@
 %
 %   See also WHOSSHARED, SHAREDMATRIX.
 %
+%   Example:
+%      semkey=1;
+%      semaphore('create',semkey,1);
+%      semaphore('wait',semkey)
+%      semaphore('post',semkey)
+%
 %   [1] - http://en.wikipedia.org/wiki/Semaphore_(programming)
 %
 %   Copyright (c) 2011, Joshua V Dillon
+%   Copyright (c) 2014, Andrew Smart 
 %   All rights reserved.
 
 % Joshua V. Dillon

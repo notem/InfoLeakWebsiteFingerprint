@@ -174,7 +174,7 @@ classdef EvaluatorMachine < handle
         % num:  total sample number, the true number may be more
         function GenerateSamples(obj, TotalNum)
             %display('Generate Samples');
-            web_num = length(obj.WebsiteList);
+            web_num = length(obj.WebsiteList)
             obj.SampleList = cell(web_num, 1);
             for id = 1:web_num
                 per_num = ceil( TotalNum*obj.prior(id) );

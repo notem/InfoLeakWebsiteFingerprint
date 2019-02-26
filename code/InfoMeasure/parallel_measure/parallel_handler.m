@@ -1,7 +1,7 @@
 function parallel_handler(ncore)
 c = parcluster();
 tm = tempname();
-t = strcat('/folder/anyname/', tm);
+t = strcat('./', tm);
 mkdir(t);
 c.JobStorageLocation=t;
 

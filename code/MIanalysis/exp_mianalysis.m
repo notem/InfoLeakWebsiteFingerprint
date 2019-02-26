@@ -11,13 +11,13 @@ addpath('../InfoMeasure/ToolBox/util/');
 % need specify
 
 % defense 
-dataset_path = strcat('../KNN/Dataset/DataMatrix/', exp_tag, '/');
-experiment_path = strcat('../../experiment/exp3.0/accuracy_info/info/', exp_tag, '/');
+%dataset_path = strcat('../KNN/Dataset/DataMatrix/', exp_tag, '/');
+%experiment_path = strcat('../../experiment/exp3.0/accuracy_info/info/', exp_tag, '/');
 
 
 % no_defense 
-%dataset_path = strcat('../../Dataset/DataMatrix/', exp_tag, '/');
-%experiment_path = strcat('../../experiment/exp3.0/no_defense/info/', exp_tag, '/');
+dataset_path = strcat('../../Dataset/DataMatrix/', exp_tag, '/');
+experiment_path = strcat('../../experiment/exp3.0/no_defense/info/', exp_tag, '/');
 
 
 

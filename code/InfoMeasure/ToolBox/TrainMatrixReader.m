@@ -35,6 +35,7 @@ classdef TrainMatrixReader < handle
         
         % st, ed denote the start and end for rank
         function obj = TrainMatrixReader(data_dir, DiscThres)
+            data_dir
             obj.DATA_PATH = data_dir;
             obj.DiscreteThres = DiscThres;
             obj.TrainMatrix = [];
@@ -92,7 +93,7 @@ classdef TrainMatrixReader < handle
                         %end
                         lab_count = lab_count + 1;
                         % extract rank
-                        sp = strsplit(filelist(i).name, '_');
+                        sp = strsplit(filelist(i).name, '-');
                         
                         obj.Rank = [obj.Rank; str2num(sp{1})];
                         

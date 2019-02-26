@@ -54,10 +54,10 @@ classdef experiment_individual < Experimenter
             
             % dataset path
             % generate dataset path, feed by argMap parameter
-            Dataset_path = '*************************';
-            monitor_dataset = strcat(Dataset_path, exp_tag, '/');
+            %Dataset_path = '*************************';
+            %monitor_dataset = strcat(Dataset_path, exp_tag, '/');
             argMap = containers.Map();
-            argMap('monitor_dataset') = monitor_dataset;
+            %argMap('monitor_dataset') = monitor_dataset;
             
             
             % build the model
