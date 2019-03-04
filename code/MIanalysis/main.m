@@ -2,7 +2,7 @@
 %addpath('../InfoMeasure/parallel_measure/');
 
 % handle cuncurrent processing in networked machines
-parallel_handler(32); 
+parallel_handler(8); 
 
 
 

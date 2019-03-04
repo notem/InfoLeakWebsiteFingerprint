@@ -1,7 +1,7 @@
 function result = ClientDoJobs(info, jobs)
 c = gcp('nocreate');
 if isempty(c)
-  parallel_handler(2);
+  parallel_handler(8);
 end
 
 

@@ -1,6 +1,6 @@
 % main
 
-parallel_handler;
+parallel_handler(8);
 
 
 exp = experiment_individual();
